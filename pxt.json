@@ -1,0 +1,33 @@
+{
+    "name": "loop.fighter",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "arcade-sprite-data": "github:microsoft/arcade-sprite-data#v0.1.0",
+        "cubicbird-helper-blocks": "github:felixtsu/cubicbird-helper-blocks#v0.6.2",
+        "arcade-monochrome": "github:pelikhan/arcade-monochrome#v0.0.2",
+        "Timers": "github:microsoft/arcade-timers#v1.1.0"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "assets.json",
+        "shark_boss.ts",
+        "hud.ts",
+        "images.g.jres",
+        "images.g.ts",
+        "laser_attack.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "1.11.37",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "tsprj"
+}
